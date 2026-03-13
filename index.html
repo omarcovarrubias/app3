@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Detector de Texto de Productos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📷 Detector de Texto de Productos</h1>
+
+  <video id="video" autoplay></video>
+  <button id="capturar">Tomar Foto</button>
+
+  <canvas id="canvas"></canvas>
+
+  <h2>📝 Texto Detectado:</h2>
+  <pre id="resultado"></pre>
+
+  <!-- Librería OCR -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
